@@ -11,4 +11,4 @@ results = []
 for i in range(n):
     results.append(my_func(arr[i]))
 
-print "loop sum:", sum(results1)
+print "loop sum:", sum(results)

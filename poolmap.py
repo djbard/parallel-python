@@ -15,7 +15,7 @@ print "I have", processes, "cores here"
 pool = Pool(processes)
 
 
-results2 = pool.map(my_func, arr)
+results = pool.map(my_func, arr)
 pool.close() 
 pool.join()
-print "pool.map:", sum(results2)
+print "pool.map:", sum(results)
